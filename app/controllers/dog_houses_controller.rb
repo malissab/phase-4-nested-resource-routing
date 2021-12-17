@@ -12,4 +12,6 @@ class DogHousesController < ApplicationController
     render json: { error: "Dog house not found" }, status: :not_found
   end
 
+  
+
 end
